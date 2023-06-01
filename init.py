@@ -339,9 +339,9 @@ def get_currently_playing_duration():
 
 def get_currently_playing_name():
     current=session.currently_playing()
-    if current is None:
+    if current is None or current["item"] is None:
         return None
-    return session.currently_playing()["item"]["name"]
+    return current
 
 def pause():
     session.pause_playback()
