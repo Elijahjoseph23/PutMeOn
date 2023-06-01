@@ -117,18 +117,18 @@ while opinion!=-1:
     if len(song_queue)==0:
         print("No more songs to recommend! Add more artists to your playlist for more!")
         break
-        
-    name=get_currently_playing_name()
-    if name is None or song_queue[0].split(" by ")[0]!=name:
-        song_queue.pop(0)
-        continue
-        
     song_uri=songs_metadata[song_queue[0]]["track"]["uri"]
     play_song(song_uri)
+
     
     print(song_queue[0])
     print("Thoughts on this song? \n ▢ Add the song to my playlist \n ▢ I don't like this song \n ▢ Exit the program \n")
     
+    name=get_currently_playing_name()
+    if name is None or song_queue[0].split(" by ")[0]!=get_currently_playing_name():
+        song_queue.pop(0)
+        continue
+
     show_current_song_cover()
     if opinion==1:
         print("1")
