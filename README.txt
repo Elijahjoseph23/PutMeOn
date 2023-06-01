@@ -42,14 +42,24 @@ CLIENT_SECRET="<YOUR CLIENT SECRET HERE>"
 - when running the program, make sure your queue is cleared as well as that a song is playing before running. If there
 is no active device, the program will not work
 
+- run the Main.py file, allow the permissions on the link it forwards you too
+
+- enter the name of the playlist you want to add more songs to (make sure to type it exactly how it appears on Spotify)
+
+- here's what each button does:
+    - 👍 (thumbs up button): adds the song to your playlist, then skips the song
+    - ⏯️ (pause/play button): pauses/plays the song
+    - 👎 (thumbs down button): skips the song, adds it to a list of songs you don't like so that the program can make more accurate predictions
+    - ❌ (X button): exits the program
+
 - WHEN FINISHED, ALWAYS CLOSE OUT THE PROGRAM USING THE ❌ (X) BUTTON. The way this program works is that it locally stores 
 the songs you dislike in order for the program to more accurately predict what songs you like
 
-- here's what each button does
-    - 👍 (thumbs up button): Adds the song to your playlist
-    - ⏯️ (pause/play button): Pauses/Plays the song
-    - 👎 (thumbs down button): Skips the song, adds it to a list of songs you don't like so that the program can make more accurate predictions
-    - ❌ (X button): Exits the program
+Contact:
+-----------------------------------------
+if you find a bug or have a suggestion, you can email elijahsjoseph23@gmail.com
+
+Happy Listening!
 
 
 
