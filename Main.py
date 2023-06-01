@@ -119,7 +119,6 @@ while opinion!=-1:
         break
     song_uri=songs_metadata[song_queue[0]]["track"]["uri"]
     play_song(song_uri)
-    duration=get_currently_playing_duration() #milliseconds
     
     print(song_queue[0])
     print("Thoughts on this song? \n ▢ Add the song to my playlist \n ▢ I don't like this song \n ▢ Exit the program \n")
