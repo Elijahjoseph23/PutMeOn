@@ -31,7 +31,7 @@ Needed Packages:          Version:
 
 Instructions:
 -----------------------------------------
-- create a spotify project (https://developer.spotify.com/documentation/web-api/tutorials/getting-started)
+- create a spotify app (https://developer.spotify.com/documentation/web-api/tutorials/getting-started)
 
 - find your project's Client ID and Client Secret
 
